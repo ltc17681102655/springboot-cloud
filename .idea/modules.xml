@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-server/config.iml" filepath="$PROJECT_DIR$/config-server/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-test/eureka-client-test.iml" filepath="$PROJECT_DIR$/eureka-client-test/eureka-client-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-test2/eureka-client-test2.iml" filepath="$PROJECT_DIR$/eureka-client-test2/eureka-client-test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-hystrix/feign-hystrix.iml" filepath="$PROJECT_DIR$/feign-hystrix/feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth/sleuth.iml" filepath="$PROJECT_DIR$/sleuth/sleuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth/zipkin-client/zipkin-client.iml" filepath="$PROJECT_DIR$/sleuth/zipkin-client/zipkin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth/zipkin-client-test2/zipkin-client-test2.iml" filepath="$PROJECT_DIR$/sleuth/zipkin-client-test2/zipkin-client-test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>

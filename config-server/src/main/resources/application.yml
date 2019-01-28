@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          password:
+          username:
+          #          uri: https://github.com/forezp/SpringcloudConfig/
+          uri: https://github.com/ltc17681102655/springcloud-xxx/   # \u914D\u7F6Egit\u4ED3\u5E93\u7684\u5730\u5740
+          search-paths: spring-cloud-config-server/src/main/resources/ #git\u4ED3\u5E93\u5730\u5740\u4E0B\u7684\u76F8\u5BF9\u5730\u5740\uFF0C\u53EF\u4EE5\u914D\u7F6E\u591A\u4E2A\uFF0C\u7528,\u5206\u5272\u3002
+      #          search-paths: respo
+      label: master
+
+
+server:
+  port: 8083
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/

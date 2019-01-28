@@ -1,0 +1,21 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: feign-hystrix
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:8083/
+      profile: dev
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+
+#Feign是自带断路器的，在D版本的Spring Cloud之后，它没有默认打开。需要在配置文件中配置打开它
+feign:
+  hystrix:
+    enabled: true
